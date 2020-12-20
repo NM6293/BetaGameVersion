@@ -13,7 +13,7 @@ public class enemy : MonoBehaviour
     {
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
         enemyRb = GetComponent<Rigidbody>();
-        player = GameObject.Find("Player");
+        player = GameObject.Find("player");
     }
 
     // Update is called once per frame
